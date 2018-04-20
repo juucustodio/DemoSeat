@@ -4,8 +4,9 @@
              xmlns:local="clr-namespace:AppDemo"
              x:Class="AppDemo.MainPage">
 
-	<Label Text="Welcome to Xamarin.Forms!" 
-           VerticalOptions="Center" 
-           HorizontalOptions="Center" />
+    <StackLayout>
+        <Image x:Name="MinhaImagem" VerticalOptions="StartAndExpand"/>
+        <Button Text="Tirar Foto" Clicked="TirarFoto" VerticalOptions="End"/>
+    </StackLayout>
 
 </ContentPage>
